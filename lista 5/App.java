@@ -14,7 +14,7 @@ public class App {
         for (int i = 0; i < 12; i++) {
             double temperatura;
             do {
-                System.out.print("Temperatura " + (i + 1) + ": ");
+                System.out.print("Temperatura " + (i + 1) + " de 4ºC e 10ºC: ");
                 temperatura = scanner.nextDouble();
                 if (temperatura < 4 || temperatura > 10) {
                     System.out.println("Temperatura inválida! Insira uma temperatura entre 4ºC e 10ºC.");
